@@ -1,0 +1,420 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700,500,300,300italic,400italic,500italic,700italic);
+.navcolor {
+    background-color: #04bfbf;
+    margin-bottom: 0px;
+}
+
+.navcolor .navbar-nav>li>a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.navcolor .navbar-nav>li>a {
+    color: #fff;
+    /*font-weight: bold;*/
+}
+
+.removeLeftRightSpace {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.logobgcolor {
+    background-color: #456879;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.searchBox {
+    height: 35px;
+    margin-top: 2px;
+    margin-left: 80%;
+}
+
+.goBottle {
+    padding: 5%;
+    background: #023550;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.show_title {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+
+.show_description {
+    font-size: 12px;
+    font-weight: normal;
+    margin-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    line-height: 17px;
+}
+
+.bottleTypes img {
+    width: 100%;
+}
+
+.goBottle {
+    color: #fff;
+}
+
+.bottleTypes {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottleTypes button {
+    background: #023550;
+    border-radius: -10%;
+    height: 31px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+}
+
+.goFilter {
+    padding: 5%;
+    background: #028a9e;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    color: #fff;
+}
+
+#btnClr {
+    background: #028a9e;
+}
+
+.clBottle {
+    padding: 5%;
+    background: #04bfbf;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    color: #fff;
+}
+
+#btnClr1 {
+    background: #04bfbf;
+}
+
+.clFilter {
+    padding: 5%;
+    background: #27aae1;
+    text-align: center;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+    color: #fff;
+}
+
+#btnClr2 {
+    background: #27aae1;
+}
+
+html,
+body {
+    background-color: #fff;
+    font-family: 'Ubuntu';
+}
+
+.msgHeading1 {
+    color: #04bfbf;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 11px;
+    padding-bottom: 15px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.msgAlign1 {
+    line-height: 18px;
+    font-size: 14px;
+}
+
+.msgInsidePic1 {
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    background: rgba(0, 0, 0, 0.5);
+    width: 475px;
+    padding: 25px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    margin-left: 7%;
+}
+
+.viewBtn1 {
+    border: 2px solid #fff;
+    border-radius: 15px;
+    color: #fff;
+    height: 31px;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 28px;
+    font-family: 'Open Sans';
+}
+
+.viewBtn1 a {
+    color: #fff;
+}
+
+#newArrival {
+    color: #08c;
+    font-size: 19px;
+    font-weight: 600;
+    margin-top: 35px;
+    text-align: center;
+}
+
+.captionAlign {
+    margin: 0 0 3px 0;
+    font-size: 1em;
+    margin-top: 8px;
+    margin-left: 31px;
+    color: #777;
+}
+
+.secGridAlign {
+    margin-top: 31px;
+}
+
+.starAlign {
+    color: grey;
+    margin: 5px 0 10px;
+    font-size: 11px;
+    line-height: 1.25;
+    height: 12px;
+    margin-top: 12px;
+    text-align: center;
+    padding-right: 0px;
+    padding-left: 0px;
+    background-position: 50px 50px;
+    background: url("../images/rating-bar.png");
+}
+
+.priceOnReq {
+    font-weight: 500;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 12px;
+}
+
+.footerBlk1 {
+    /* margin-bottom: 15px;*/
+    background: #36576a;
+}
+
+.links li a {
+    color: #fff;
+    border-bottom: 1px solid #36576a;
+}
+
+.links li a:hover {
+    text-decoration: none;
+}
+
+.links li {
+    border-bottom: 1px solid gray;
+}
+
+.links li:last-child {
+    border-bottom: none;
+}
+
+.links {
+    list-style-type: none;
+    /*display:inline-block;*/
+    color: #04bfbf;
+    font-weight: 400;
+    line-height: 2.5;
+    font-size: 13px;
+}
+
+#W-T-G {
+    /*margin-top: 13px;*/
+    padding-top: 29%;
+    font-size: 16px;
+    padding-left: 45%;
+}
+
+.myAcnt {
+    /*margin-top: 13px;*/
+    /*padding-top: 47px;*/
+    font-size: 16px;
+    /*padding-top: 29%
+     padding-left: 45%;   
+}*/
+}
+
+.submit {
+    background: cadetblue;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    height: 28px;
+}
+
+.txtBox {
+    border-radius: 5px 0 0 5px;
+    height: 28px;
+    width: 164px;
+}
+
+.footerAlign {
+    margin-left: 4%;
+    padding-top: 4%;
+}
+
+.borderAlign {
+    border-bottom: 1px solid black;
+}
+
+.margin {
+    border-bottom: 1px solid gray;
+}
+
+.footerBtm {
+    width: 100%;
+    min-height: 50px;
+    background: #04bfbf;
+    color: #fff;
+}
+
+.footerImages img {
+    height: 36px;
+    padding-right: 2px;
+}
+
+.margin {
+    width: 83%;
+    border-top: 1px solid #837979;
+}
+
+.matter {
+    background: url(https://www.watertogo.eu/skin/frontend/default/custom_theme/images/blurb-drop-background.png) left center no-repeat;
+    min-height: 432px;
+}
+
+.twoPics {
+    background: #023550;
+    color: #fff;
+    text-align: left;
+    height: 432px;
+    margin-left: 1.25%;
+    width: 48%;
+}
+
+.title h1 {
+    background: url(../images/header-title.png) left bottom no-repeat;
+    color: #04bfbf;
+    margin-bottom: 17px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.rightPic {
+    margin-left: -3%;
+    width: 105%;
+    height: 432px;
+    padding-left: 0px;
+}
+
+.logo {
+    margin-left: 15%;
+}
+
+.breadcrumbs-split {
+    vertical-align: middle;
+    margin: 0 2px;
+    font-size: 12px;
+}
+
+.bcAlign {
+    display: inline;
+    vertical-align: top;
+    color: black;
+}
+
+.breadcrumbs-split {
+    vertical-align: middle;
+    margin: 0 2px;
+    font-size: 12px;
+}
+
+.breadcrumbsAlign {
+    text-align: left;
+}
+
+#homeColor {
+    color: black;
+    margin-left: -3%;
+}
+
+.blueBottleALign {
+    width: 74%;
+}
+
+.paraLink {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.paraLink a {
+    color: #bdbdbd;
+    margin-left: -25%;
+}
+
+.blueWaterBottle {
+    font-size: 28px;
+    color: #555;
+    margin-left: -25%;
+    font-family: ubuntu;
+}
+
+product-tabs li a {
+    float: left;
+    border: 1px solid #a7a9ac;
+    border-width: 3px 1px 0 1px;
+    border-radius: 5px 5px 0 0;
+    margin-right: 1px;
+}
+
+.nav-tabs>ul li:active {
+    background-color: #028a9e;
+    border-top-color: #028a9e;
+    color: #fff;
+}
+
+.paraBorder {
+    padding: 37px 15px;
+    border: 1px solid #eee;
+    min-height: 461px;
+    border-radius: 0 0 3px 3px;
+    box-shadow: 0 1px 2px #eee;
+    width: 75%;
+}
+
+.tabWidth {
+    width: 25%;
+}
+
+.txtAlign {
+    text-align: left;
+    margin-left: -2%;
+}
+
+.reviewColor {
+    color: gray;
+}
