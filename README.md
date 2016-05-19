@@ -13,11 +13,13 @@ git init
 git remote add origin https://github.com/samhitha3999/sampleProject.git
 
 git config --global user.email "mail@example.com"
+
 git config --global user.name "Your Name"
 
 # One time task end
 
-To get the code from 
+To get the code use following steps:
+
 git pull origin master
 
 Add you changes to the source code then use followig commands
